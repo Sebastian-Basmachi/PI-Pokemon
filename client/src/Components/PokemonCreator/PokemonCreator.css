@@ -1,0 +1,195 @@
+.PageCreator{
+    margin-top: 100px;
+    background-image: url(../../Images/PokemonGym2.jpg);
+    background-repeat: no-repeat;
+    height: 625px;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.input {
+    border-radius: 15px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    padding-left: 10px;
+}
+
+.input-name {
+    display: flex;
+    align-items: center;
+    padding-bottom: 5px;
+    padding-right: 5px;
+}
+
+.name-bar {
+    display: flex;
+    align-items: center;
+    padding-bottom: 2.5px;
+    padding-right: 5px;
+}
+
+.value-bar {
+    display: flex;
+    align-items: center;
+    padding-bottom: 2.5px;
+    padding-left: 5px;
+}
+
+.Form {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(8, 50px);
+    background: rgba( 5, 7, 12, 0.55);
+    border-radius: 15px;
+    width: 90%;
+    margin-left: 5%;
+    color: white;
+}
+
+.Header {
+    display: flex;
+    justify-content: center;
+    /* color: rgb(255, 200, 0); */
+    padding-top: 25px;
+    text-decoration: solid;
+    -webkit-text-stroke: 1.5px black;
+    color: gold; 
+    font-size: 40px;
+}
+
+.Name-input {
+    grid-column: 1;
+    grid-row: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Health-input {
+    grid-column: 1;
+    grid-row: 2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Attack-input {
+    grid-column: 1;
+    grid-row: 3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Defense-input {
+    grid-column: 1;
+    grid-row: 4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Speed-input {
+    grid-column: 1;
+    grid-row: 5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Height-input {
+    grid-column: 1;
+    grid-row: 6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Weight-input {
+    grid-column: 1;
+    grid-row: 7;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Image-input {
+    grid-column: 1;
+    grid-row: 8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Header-types {
+    grid-column: 2;
+    grid-row: 3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Types-select {
+    grid-column: 2;
+    grid-row: 4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 25px;
+    padding-left: 20px;
+}
+
+.Types-list {
+    grid-column: 2;
+    grid-row: 5;
+    display: flex;
+    justify-content: space-around;
+}
+
+.Delete-button {
+    margin-right: 2px;
+    background-color: red;
+    color: black;
+    width: 24px;
+    border: 1px;
+    border-style: solid;
+    border-radius: 15px;
+    border-color: black;
+}
+
+.Container-creator {
+    grid-column: 3;
+    grid-row: 4;
+    display: flex;
+    justify-content: center;
+}
+
+.cssbuttons-io-button {
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    padding: 0.7em 1.4em 0.7em 1.1em;
+    color: white;
+    background: #ad5389;
+    background: linear-gradient(0deg, rgba(20,167,62,1) 0%, rgba(102,247,113,1) 100%);
+    border: none;
+    box-shadow: 0 0.7em 1.5em -0.5em #14a73e98;
+    letter-spacing: 0.05em;
+    border-radius: 20em;
+   }
+   
+   .cssbuttons-io-button svg {
+    margin-right: 6px;
+   }
+   
+   .cssbuttons-io-button:hover {
+    box-shadow: 0 0.5em 1.5em -0.5em #14a73e98;
+   }
+   
+   .cssbuttons-io-button:active {
+    box-shadow: 0 0.3em 1em -0.5em #14a73e98;
+   }

@@ -1,0 +1,101 @@
+.NavBar-top {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 90px;
+    position: fixed;
+    top: 0%;
+    width: 100%;
+    background-color: rgb(220, 0, 0);
+    align-items: center;
+    /* justify-content: space-around; */
+    border-bottom: 10px;
+    border-bottom-style: outset;
+    border-color: rgb(200, 0, 0);
+}
+
+.Image {
+    grid-column: 1;
+    padding-left: 100px;
+}
+
+.Name-page {
+    grid-column: 2;
+    display: flex;
+    justify-content: center;
+}
+
+#Pokeland {
+    color: gold;
+    font-size: 30px;
+    font-style: italic;
+    text-decoration: none;
+}
+
+.Search-input {
+    grid-column: 3;
+    padding-left: 200px;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+}
+
+#button-navBar {
+    background-color: white;
+    margin-left: 5px;
+    color: black;
+    border-color: transparent;
+}
+
+#button-navBar:hover {
+    background: rgb(235, 235, 235);
+  }
+  
+#button-navBar:active {
+    transform: scale(0.95);
+  }  
+
+.NavBar-bottom {
+    display: flex;
+    position: fixed;
+    top: 90%;
+    width: 100%;
+    background-color: rgb(220, 0, 0);
+    padding-bottom: 50px;
+    align-items: center;
+    justify-content: space-around;
+    border-top: 10px;
+    border-top-style: inset;
+    border-color: rgb(200, 0, 0);
+    padding-top: 7.5px;
+}
+
+.Home-link {
+    display: flex;
+    justify-content: center;
+}
+
+.Link {
+    text-decoration: none;
+}
+
+.button-NavBar-Page {
+    cursor: pointer;
+    font-family: Helvetica,"sans-serif";
+    transition: all .2s;
+    padding: 0px 10px;
+    height: 45px;
+    border-radius: 100px;
+    background: gold;
+    border: 1px solid transparent;
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+  }
+   
+.button-NavBar-Page:hover {
+    background: goldenrod;
+  }
+  
+.button-NavBar-Page:active {
+    transform: scale(0.95);
+  }  
